@@ -23,27 +23,9 @@ Este proyecto implementa un proceso de **fine-tuning** del modelo BERT pre-entre
 ### Instalación
 
 ```bash
-# Instalar dependencias desde requirements.txt
-pip install -r requirements.txt
 
 # O instalar directamente
 pip install transformers datasets evaluate accelerate
-```
-
-## Estructura del proyecto
-
-```
-bert-sst2-fine-tuning/
-├── README.md
-├── requirements.txt
-├── bert_finetuning_sst2.ipynb          # Notebook principal
-├── bert-sst2-demo/                     # Directorio de salida (generado)
-│   ├── saved/                          # Modelo guardado
-│   │   ├── config.json
-│   │   ├── pytorch_model.bin
-│   │   └── tokenizer.json
-│   └── checkpoint-*/                   # Checkpoints (si se guardan)
-└── utils/                              # Utilidades adicionales (opcional)
 ```
 
 ## Uso
