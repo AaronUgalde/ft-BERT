@@ -23,8 +23,6 @@ Este proyecto implementa un proceso de **fine-tuning** del modelo BERT pre-entre
 ### Instalación
 
 ```bash
-
-# O instalar directamente
 pip install transformers datasets evaluate accelerate
 ```
 
@@ -33,11 +31,6 @@ pip install transformers datasets evaluate accelerate
 ### 1. Ejecución del notebook
 
 Abre el notebook Jupyter `bert_finetuning_sst2.ipynb` y ejecuta las celdas en orden:
-
-```python
-# En Jupyter o Google Colab
-jupyter notebook bert_finetuning_sst2.ipynb
-```
 
 ### 2. Configuración inicial
 
